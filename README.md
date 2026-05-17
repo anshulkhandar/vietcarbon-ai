@@ -1,6 +1,6 @@
 # 🇻🇳 VietCarbon AI — Vietnam Smart Sustainability Platform
 
-**AI-powered smart city platform monitoring Vietnam's environmental sustainability with real-time analytics, 3D mapping, HydroGrid Intelligence, and FRIDAY AI voice assistant.**
+**AI-powered smart city platform monitoring Vietnam's environmental sustainability with real-time analytics, 3D mapping, Traffic Intelligence, HydroGrid Intelligence, and FRIDAY AI voice assistant.**
 
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev/)
@@ -52,33 +52,58 @@ npm run dev:frontend
 
 ## 📊 Features
 
-### Core Platform
+### Dashboards & Roles
 
-- ✅ **Admin Dashboard** — 11+ analytics panels with full sustainability monitoring
-- ✅ **Interactive Vietnam Map** — MapLibre GL JS 3D map with heatmaps, city markers, and overlay layers
-- ✅ **5-Year Historical Data** (2021–2025) + 2026 Live simulation layer
-- ✅ **FRIDAY AI Voice Assistant** — Orbital HUD, voice commands, expandable chat panel
-- ✅ **HydroGrid AI** — Hydrogen energy grid intelligence module
-- ✅ **Traffic Intelligence** — Real-time traffic monitoring and CO₂ corridor analysis
-- ✅ **Citizen Dashboard** — Carbon footprint calculator and environmental alerts
+- ✅ **Admin Dashboard** — 14-tab command center: CO₂ Control, Climate & Disaster, Renewable Energy, Soil & Agriculture, Traffic & Vehicles, Traffic Intelligence, AQI & Pollution, AI Report, Citizen Data, AI Data Center, Alert System, HydroGrid AI
+- ✅ **Manager Dashboard** — Full manager oversight with identical analytics panels and team management
+- ✅ **Employee Dashboard** — Task management with sustainability-focused assignments and eco-scores
+- ✅ **Citizen Dashboard** — Personal carbon footprint calculator, OTP-based registration, environmental alerts inbox
 
-### AI & Intelligence
+### Maps & Visualization
 
-- ✅ **Groq AI Engine** — Llama 3.3 70B for intelligent analysis and reports
-- ✅ **Google Gemini** — Alternative AI backend support
-- ✅ **ElevenLabs Voice** — Premium FRIDAY TTS voice (optional)
-- ✅ **AI Report Generator** — City-specific sustainability reports with download
-- ✅ **Smart Offline Fallbacks** — 15+ pattern-matched responses without API keys
+- ✅ **MapLibre GL JS 3D Map** — 4 map styles (Dark Matter, Terrain, Satellite, Positron), 8 overlay layers (CO₂, Climate Risk, Traffic, Solar, Flood, Population, Industrial, Renewable), WebGL heatmaps, animated city markers, 3D pitch mode
+- ✅ **Interactive City Selection** — Fly-to animation, orbit pulse markers, hover tooltips, city quick-select panel
+- ✅ **Renewable Energy Markers** — Solar farms, wind turbines, floating solar, hydro dams, hydrogen ports, smart villages, agrivoltaics with real facility images
+- ✅ **Industrial & Factory Hotspots** — Cat Lai Port, Dinh Vu IZ, Thang Long Industrial Park, Hoa Khanh IZ, Tra Noc IZ, Phu My IZ with popup images
+
+### Traffic Intelligence (Live)
+
+- ✅ **TomTom Live Traffic Flow** — Real-time speed, free-flow speed, efficiency %, severity classification (Free Flow → Critical) for CO₂ hotspot zones
+- ✅ **TomTom Reverse Geocoding** — Actual road/corridor names from GPS coordinates
+- ✅ **Google Gemini AI Reasoning** — AI-generated cause analysis and operational mitigation per hotspot zone, cached with 3-minute TTL and severity fingerprinting
+- ✅ **Carbon Estimation Engine** — Deterministic CO₂ calculation from speed ratios and zone types (industrial, logistics, transit, commercial, etc.)
+- ✅ **Public Transport Analytics** — Metro lines, bus routes, EV stations, ferry routes, transport coverage score per city
+- ✅ **Multi-city Support** — Ho Chi Minh City, Hanoi, Da Nang, Hai Phong, Can Tho with city-specific context and authority references
+
+### AI & Voice
+
+- ✅ **FRIDAY AI Voice Assistant** — Orbital HUD orb with 4-state system (idle → listening → processing → speaking), expandable chat panel, quick command buttons, rich smart fallbacks
+- ✅ **Groq AI Engine** — Llama 3.3 70B Versatile for FRIDAY chat, task analysis, and sustainability reports
+- ✅ **Google Gemini** — Traffic intelligence AI reasoning engine
+- ✅ **ElevenLabs TTS** — Premium FRIDAY voice with dual-response architecture (short responses spoken directly, long analytics compressed to executive briefings via Groq)
+- ✅ **AI Report Generator** — City-specific sustainability reports with daily/monthly/yearly filters and download
+- ✅ **AI Emergency Alert System** — Live data analysis against thresholds, AI-generated citizen broadcast messages
 
 ### Environmental Monitoring
 
-- ✅ CO₂ Emissions Tracking & Heatmaps
-- ✅ Renewable Energy Monitoring (Solar, Wind, Hydro, Tidal)
-- ✅ Climate Disaster Risk Assessment
-- ✅ Air Quality Index (AQI) with Open-Meteo live data
-- ✅ Soil Health & Agriculture Analytics
-- ✅ Industrial Emission Tracking
-- ✅ Real-time Alert System with citizen notifications
+- ✅ **CO₂ Emissions Tracking** — National + city-level carbon data with industrial hotspot mapping
+- ✅ **Renewable Energy Monitoring** — Solar, Wind, Hydro, Tidal generation tracking with 2026 live simulation
+- ✅ **Climate Disaster Predictor** — Flood, storm, heatwave, drought risk assessment per city
+- ✅ **Air Quality (AQI)** — Live PM2.5, PM10, CO, NO₂, SO₂, Ozone from Open-Meteo API
+- ✅ **Soil Health & Agriculture** — Soil fertility, moisture, nitrogen levels, crop productivity
+- ✅ **Real-time Alert System** — AI-powered emergency analysis → citizen climate broadcast → notification delivery
+- ✅ **Open-Meteo Live Weather** — Temperature, wind, precipitation, weather codes for all monitored cities (free, no key needed)
+
+### HydroGrid AI Module
+
+- ✅ **Overview Dashboard** — Live KPIs, animated energy flow diagram (Solar → AI Grid → Electrolysis → H₂ Tank → Mobility), Vietnam region suitability map
+- ✅ **Renewable Monitor** — Solar/Wind/Tidal live metrics with sunny/cloudy/rainy simulation modes
+- ✅ **Weather AI** — 7-day forecast with FRIDAY AI energy planning recommendations
+- ✅ **H₂ Production** — Electrolysis control panel with animated hydrogen tank, safety alerts, AI auto-mode
+- ✅ **Low-Carbon Mobility** — Hydrogen bus/truck/train/taxi fleet analytics with diesel vs H₂ emission comparison
+- ✅ **AI Optimization** — FRIDAY AI decision log, routing status, optimization score
+- ✅ **Analytics** — Monthly charts, CO₂ trend analysis, 24-month deployment data
+- ✅ **Settings** — System toggles, energy threshold sliders
 
 ---
 
@@ -94,8 +119,9 @@ npm run dev:frontend
 | **Database** | MongoDB Atlas + Mongoose                 |
 | **AI**       | Groq SDK (Llama 3.3 70B) + Google Gemini |
 | **Voice**    | ElevenLabs TTS + Web Speech API          |
+| **Traffic**  | TomTom Traffic Flow API + Geocoding      |
 | **Email**    | Nodemailer (Gmail SMTP)                  |
-| **Auth**     | JWT + bcrypt                             |
+| **Auth**     | JWT + bcrypt + OTP (citizen)             |
 | **Weather**  | Open-Meteo API (free, no key required)   |
 
 ---
@@ -111,6 +137,7 @@ npm run dev:frontend
 "Friday, open HydroGrid"
 "Friday, hydrogen production"
 "Friday, show climate disaster data"
+"Friday, open traffic intelligence"
 ```
 
 ---
@@ -129,27 +156,26 @@ vietcarbon-ai/
 │   ├── package.json                      # Backend dependencies
 │   ├── package-lock.json                 # Dependency lock file
 │   ├── server.js                         # Express app entry point
-│   ├── seed.js                           # Database seeder (users)
+│   ├── seed.js                           # Database seeder (manager + employees)
 │   ├── middleware/
 │   │   └── auth.js                       # JWT authentication middleware
 │   ├── models/
 │   │   └── index.js                      # Mongoose schemas (User, Task, Notification, EmissionLog, CitizenData, OtpSession)
 │   ├── routes/
-│   │   ├── ai.js                         # FRIDAY AI chat, speak, report, API status
-│   │   ├── auth.js                       # Login, register, OTP, password reset
-│   │   ├── citizen.js                    # Citizen data, notifications, emission logs
-│   │   ├── employees.js                  # Employee CRUD
-│   │   ├── tasks.js                      # Task management
-│   │   └── traffic.js                    # Traffic intelligence endpoints
+│   │   ├── ai.js                         # FRIDAY AI chat, TTS speak, report, climate email, API status
+│   │   ├── auth.js                       # Login, register, OTP verification, password reset
+│   │   ├── citizen.js                    # Citizen data submission, notifications, emission logs
+│   │   ├── employees.js                  # Employee CRUD operations
+│   │   ├── tasks.js                      # Task assignment & management
+│   │   └── traffic.js                    # TomTom live traffic + Gemini AI reasoning engine
 │   ├── utils/
 │   │   ├── email.js                      # Nodemailer SMTP helper
-│   │   ├── groq.js                       # Groq AI SDK wrapper
-│   │   └── vietnamData.js               # Vietnam city baseline data
+│   │   ├── groq.js                       # Groq AI SDK wrapper (chat, analyzeTask, generateReport)
+│   │   └── vietnamData.js               # Vietnam city baseline data + national stats
 │   └── node_modules/                     # Backend dependencies (gitignored)
 │
 ├── frontend/                             # React + Vite SPA
-│   ├── .env.example                      # Frontend env template
-│   ├── .env.local                        # Local development env (safe to commit)
+│   ├── .env.local                        # API URL config (safe to commit)
 │   ├── package.json                      # Frontend dependencies
 │   ├── package-lock.json                 # Dependency lock file
 │   ├── index.html                        # HTML entry point
@@ -168,36 +194,36 @@ vietcarbon-ai/
 │   │           └── t1–t10.*              # 10 traffic hotspot images
 │   ├── src/
 │   │   ├── main.jsx                      # React entry point
-│   │   ├── App.jsx                       # Router & auth wrapper
-│   │   ├── index.css                     # Global styles
+│   │   ├── App.jsx                       # Router & auth wrapper (admin, citizen, employee routes)
+│   │   ├── index.css                     # Global styles (Orbitron + Space Mono + Inter)
 │   │   ├── components/
-│   │   │   ├── FridayAI.jsx              # FRIDAY AI voice orb + chat panel
-│   │   │   ├── VietnamMap.jsx            # MapLibre GL JS 3D Vietnam map
+│   │   │   ├── FridayAI.jsx              # FRIDAY AI voice orb + 4-state HUD + chat panel
+│   │   │   ├── VietnamMap.jsx            # MapLibre GL JS 3D Vietnam map (8 overlay layers)
 │   │   │   └── shared.jsx               # Reusable UI components
 │   │   ├── context/
-│   │   │   └── AuthContext.jsx           # Authentication context provider
+│   │   │   └── AuthContext.jsx           # Authentication context provider (JWT)
 │   │   ├── data/
 │   │   │   ├── cityRoadNetwork.json      # City road network data
-│   │   │   ├── hotspotCandidates.json    # CO₂ hotspot candidate locations
+│   │   │   ├── hotspotCandidates.json    # CO₂ hotspot candidate locations (used by Traffic Intelligence)
 │   │   │   ├── publicTransport.json      # Public transport routes
 │   │   │   └── trafficCorridors.json     # Traffic corridor definitions
 │   │   ├── pages/
-│   │   │   ├── AdminDashboard.jsx        # Full admin dashboard (11 panels)
-│   │   │   ├── ManagerDashboard.jsx      # Manager oversight dashboard
-│   │   │   ├── EmployeeDashboard.jsx     # Employee task dashboard
-│   │   │   ├── CitizenDashboard.jsx      # Citizen environmental dashboard
-│   │   │   ├── HydroGridAI.jsx           # HydroGrid hydrogen intelligence
-│   │   │   ├── TrafficIntelligence.jsx   # Traffic monitoring module
-│   │   │   └── LoginPage.jsx             # Authentication page
+│   │   │   ├── AdminDashboard.jsx        # Full admin dashboard (14 tabs, 2600+ lines)
+│   │   │   ├── ManagerDashboard.jsx      # Manager oversight dashboard (mirrors admin)
+│   │   │   ├── EmployeeDashboard.jsx     # Employee task management dashboard
+│   │   │   ├── CitizenDashboard.jsx      # Citizen environmental dashboard + OTP registration
+│   │   │   ├── HydroGridAI.jsx           # HydroGrid hydrogen energy intelligence (8 sub-pages)
+│   │   │   ├── TrafficIntelligence.jsx   # Live TomTom traffic + AI analysis + public transport
+│   │   │   └── LoginPage.jsx             # Authentication page (manager/employee/citizen)
 │   │   ├── services/
-│   │   │   ├── cityConfig.js             # City configuration data
-│   │   │   ├── osmService.js             # OpenStreetMap service
+│   │   │   ├── cityConfig.js             # City configuration (center coords, zoom, hotspot candidates)
+│   │   │   ├── osmService.js             # OpenStreetMap tile service
 │   │   │   ├── routeService.js           # Route calculation service
-│   │   │   ├── trafficService.js         # Traffic data service
+│   │   │   ├── trafficService.js         # Traffic data service (calls backend /api/traffic/analyze)
 │   │   │   └── weatherService.js         # Open-Meteo weather service
 │   │   └── utils/
-│   │       ├── api.js                    # Axios API client
-│   │       └── vietnamData.js            # Vietnam city/province data
+│   │       ├── api.js                    # Axios API client (reads VITE_API_URL)
+│   │       └── vietnamData.js            # Vietnam city/province data (2021–2025 + 2026 live layer)
 │   └── node_modules/                     # Frontend dependencies (gitignored)
 ```
 
@@ -231,19 +257,12 @@ vietcarbon-ai/
 
 ---
 
-## 🌊 HydroGrid AI Module
+## 📄 License
 
-An integrated hydrogen energy intelligence system featuring:
-
-| Page                | Description                                                        |
-| ------------------- | ------------------------------------------------------------------ |
-| Overview Dashboard  | Live KPIs, energy flow animation, Vietnam region suitability map   |
-| Renewable Monitor   | Solar/Wind/Tidal live metrics with weather simulation modes        |
-| Weather AI          | 7-day forecast with AI recommendations for energy planning         |
-| H₂ Production       | Electrolysis control panel, hydrogen tank animation, safety alerts |
-| Low-Carbon Mobility | Hydrogen bus/truck/train/taxi fleet analytics                      |
-| AI Optimization     | FRIDAY AI decision log, routing status, optimization score         |
-| Analytics           | Monthly charts, CO₂ trend analysis                                 |
-| Settings            | System toggles, energy threshold sliders                           |
+This project is licensed under the MIT License.
 
 ---
+
+## 👤 Author
+
+**Anshul Khandar** — [GitHub](https://github.com/anshulkhandar)

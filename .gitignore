@@ -12,10 +12,9 @@ node_modules/
 backend/.env
 frontend/.env
 
-# Keep example/template env files
+# Keep example/template env files and safe frontend config
 !.env.example
 !backend/.env.example
-!frontend/.env.example
 !frontend/.env.local
 
 # ============================================
