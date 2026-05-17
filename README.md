@@ -42,17 +42,18 @@ npm run dev:frontend
 
 ## 🔐 Default Logins
 
-| Role | Username | Password |
-|------|----------|----------|
-| Admin / Manager | `manager` | `manager123` |
-| Employee | `emp001` – `emp004` | `emp123` |
-| Citizen | Register via OTP on login page | — |
+| Role            | Username                       | Password     |
+| --------------- | ------------------------------ | ------------ |
+| Admin / Manager | `manager`                      | `manager123` |
+| Employee        | `emp001` – `emp004`            | `emp123`     |
+| Citizen         | Register via OTP on login page | —            |
 
 ---
 
 ## 📊 Features
 
 ### Core Platform
+
 - ✅ **Admin Dashboard** — 11+ analytics panels with full sustainability monitoring
 - ✅ **Interactive Vietnam Map** — MapLibre GL JS 3D map with heatmaps, city markers, and overlay layers
 - ✅ **5-Year Historical Data** (2021–2025) + 2026 Live simulation layer
@@ -62,6 +63,7 @@ npm run dev:frontend
 - ✅ **Citizen Dashboard** — Carbon footprint calculator and environmental alerts
 
 ### AI & Intelligence
+
 - ✅ **Groq AI Engine** — Llama 3.3 70B for intelligent analysis and reports
 - ✅ **Google Gemini** — Alternative AI backend support
 - ✅ **ElevenLabs Voice** — Premium FRIDAY TTS voice (optional)
@@ -69,6 +71,7 @@ npm run dev:frontend
 - ✅ **Smart Offline Fallbacks** — 15+ pattern-matched responses without API keys
 
 ### Environmental Monitoring
+
 - ✅ CO₂ Emissions Tracking & Heatmaps
 - ✅ Renewable Energy Monitoring (Solar, Wind, Hydro, Tidal)
 - ✅ Climate Disaster Risk Assessment
@@ -81,19 +84,19 @@ npm run dev:frontend
 
 ## 🛠 Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| **Frontend** | React 18 + Vite + Tailwind CSS |
-| **3D Map** | MapLibre GL JS + Leaflet.js |
-| **Charts** | Recharts |
-| **Icons** | Lucide React |
-| **Backend** | Node.js + Express |
-| **Database** | MongoDB Atlas + Mongoose |
-| **AI** | Groq SDK (Llama 3.3 70B) + Google Gemini |
-| **Voice** | ElevenLabs TTS + Web Speech API |
-| **Email** | Nodemailer (Gmail SMTP) |
-| **Auth** | JWT + bcrypt |
-| **Weather** | Open-Meteo API (free, no key required) |
+| Layer        | Technology                               |
+| ------------ | ---------------------------------------- |
+| **Frontend** | React 18 + Vite + Tailwind CSS           |
+| **3D Map**   | MapLibre GL JS + Leaflet.js              |
+| **Charts**   | Recharts                                 |
+| **Icons**    | Lucide React                             |
+| **Backend**  | Node.js + Express                        |
+| **Database** | MongoDB Atlas + Mongoose                 |
+| **AI**       | Groq SDK (Llama 3.3 70B) + Google Gemini |
+| **Voice**    | ElevenLabs TTS + Web Speech API          |
+| **Email**    | Nodemailer (Gmail SMTP)                  |
+| **Auth**     | JWT + bcrypt                             |
+| **Weather**  | Open-Meteo API (free, no key required)   |
 
 ---
 
@@ -202,29 +205,29 @@ vietcarbon-ai/
 
 ## 📊 Vietnam Data (2021–2025)
 
-| Year | CO₂ (Mt) | Renewable% | EV Vehicles | AQI |
-|------|-----------|------------|-------------|-----|
-| 2021 | 162.5 | 19% | 120K | 61 |
-| 2022 | 168.7 | 21% | 210K | 63 |
-| 2023 | 173.4 | 24% | 390K | 65 |
-| 2024 | 176.8 | 26% | 640K | 67 |
-| 2025 | 179.6 | 28.7% | 910K | 68 |
-| **2026** | **Live** | **Live** | **Live** | **Live** |
+| Year     | CO₂ (Mt) | Renewable% | EV Vehicles | AQI      |
+| -------- | -------- | ---------- | ----------- | -------- |
+| 2021     | 162.5    | 19%        | 120K        | 61       |
+| 2022     | 168.7    | 21%        | 210K        | 63       |
+| 2023     | 173.4    | 24%        | 390K        | 65       |
+| 2024     | 176.8    | 26%        | 640K        | 67       |
+| 2025     | 179.6    | 28.7%      | 910K        | 68       |
+| **2026** | **Live** | **Live**   | **Live**    | **Live** |
 
 ---
 
 ## 🏙 Monitored Cities
 
-| City | CO₂ (Mt) | AQI | Risk Level |
-|------|----------|-----|------------|
-| Ho Chi Minh City | 18.4 | 76 | Critical |
-| Hanoi | 15.2 | 82 | Critical |
-| Hai Phong | 9.6 | 74 | High |
-| Da Nang | 4.8 | 58 | Medium |
-| Can Tho | 3.2 | 53 | High |
-| Nha Trang | 1.8 | 46 | Medium |
-| Hue | 1.4 | 50 | Medium |
-| Vung Tau | 3.8 | 62 | Medium |
+| City             | CO₂ (Mt) | AQI | Risk Level |
+| ---------------- | -------- | --- | ---------- |
+| Ho Chi Minh City | 18.4     | 76  | Critical   |
+| Hanoi            | 15.2     | 82  | Critical   |
+| Hai Phong        | 9.6      | 74  | High       |
+| Da Nang          | 4.8      | 58  | Medium     |
+| Can Tho          | 3.2      | 53  | High       |
+| Nha Trang        | 1.8      | 46  | Medium     |
+| Hue              | 1.4      | 50  | Medium     |
+| Vung Tau         | 3.8      | 62  | Medium     |
 
 ---
 
@@ -232,25 +235,15 @@ vietcarbon-ai/
 
 An integrated hydrogen energy intelligence system featuring:
 
-| Page | Description |
-|------|-------------|
-| Overview Dashboard | Live KPIs, energy flow animation, Vietnam region suitability map |
-| Renewable Monitor | Solar/Wind/Tidal live metrics with weather simulation modes |
-| Weather AI | 7-day forecast with AI recommendations for energy planning |
-| H₂ Production | Electrolysis control panel, hydrogen tank animation, safety alerts |
-| Low-Carbon Mobility | Hydrogen bus/truck/train/taxi fleet analytics |
-| AI Optimization | FRIDAY AI decision log, routing status, optimization score |
-| Analytics | Monthly charts, CO₂ trend analysis |
-| Settings | System toggles, energy threshold sliders |
+| Page                | Description                                                        |
+| ------------------- | ------------------------------------------------------------------ |
+| Overview Dashboard  | Live KPIs, energy flow animation, Vietnam region suitability map   |
+| Renewable Monitor   | Solar/Wind/Tidal live metrics with weather simulation modes        |
+| Weather AI          | 7-day forecast with AI recommendations for energy planning         |
+| H₂ Production       | Electrolysis control panel, hydrogen tank animation, safety alerts |
+| Low-Carbon Mobility | Hydrogen bus/truck/train/taxi fleet analytics                      |
+| AI Optimization     | FRIDAY AI decision log, routing status, optimization score         |
+| Analytics           | Monthly charts, CO₂ trend analysis                                 |
+| Settings            | System toggles, energy threshold sliders                           |
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👤 Author
-
-**Anshul Khandar** — [GitHub](https://github.com/anshulkhandar)
