@@ -256,13 +256,3 @@ vietcarbon-ai/
 | Vung Tau         | 3.8      | 62  | Medium     |
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-## 👤 Author
-
-**Anshul Khandar** — [GitHub](https://github.com/anshulkhandar)
