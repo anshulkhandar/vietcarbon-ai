@@ -1,0 +1,67 @@
+{
+  "Hanoi": {
+    "center": [
+      21.0285,
+      105.8542
+    ],
+    "total_nodes": 0,
+    "summary": {
+      "bus_stops": 0,
+      "rail_stations": 0,
+      "terminals": 0
+    },
+    "nodes": []
+  },
+  "Ho Chi Minh City": {
+    "center": [
+      10.8231,
+      106.6297
+    ],
+    "total_nodes": 0,
+    "summary": {
+      "bus_stops": 0,
+      "rail_stations": 0,
+      "terminals": 0
+    },
+    "nodes": []
+  },
+  "Da Nang": {
+    "center": [
+      16.0544,
+      108.2022
+    ],
+    "total_nodes": 0,
+    "summary": {
+      "bus_stops": 0,
+      "rail_stations": 0,
+      "terminals": 0
+    },
+    "nodes": []
+  },
+  "Hai Phong": {
+    "center": [
+      20.8449,
+      106.6881
+    ],
+    "total_nodes": 0,
+    "summary": {
+      "bus_stops": 0,
+      "rail_stations": 0,
+      "terminals": 0
+    },
+    "nodes": []
+  },
+  "Can Tho": {
+    "center": [
+      10.0452,
+      105.7469
+    ],
+    "total_nodes": 0,
+    "summary": {
+      "bus_stops": 0,
+      "rail_stations": 0,
+      "terminals": 0
+    },
+    "nodes": []
+  }
+}

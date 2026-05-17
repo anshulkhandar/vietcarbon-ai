@@ -1,0 +1,412 @@
+{
+  "Hanoi": {
+    "total_candidates": 5,
+    "candidates": [
+      {
+        "name": "Long Bien Industrial",
+        "lat": 21.046,
+        "lng": 105.869,
+        "zone_type": "industrial",
+        "severity": "red",
+        "severity_label": "Severe",
+        "risk_score": 5,
+        "risk_factors": [
+          "Transport-deficient zone",
+          "Industrial operations"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "Hoan Kiem Center",
+        "lat": 21.0285,
+        "lng": 105.8542,
+        "zone_type": "commercial",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "Cau Giay IT Cluster",
+        "lat": 21.0333,
+        "lng": 105.7833,
+        "zone_type": "tech",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "Ring Road 3 Corridor",
+        "lat": 20.9937,
+        "lng": 105.8056,
+        "zone_type": "freight",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "Ba Dinh Government District",
+        "lat": 21.0367,
+        "lng": 105.8347,
+        "zone_type": "government",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      }
+    ]
+  },
+  "Ho Chi Minh City": {
+    "total_candidates": 6,
+    "candidates": [
+      {
+        "name": "Cat Lai Port Area",
+        "lat": 10.7627,
+        "lng": 106.7658,
+        "zone_type": "logistics",
+        "severity": "red",
+        "severity_label": "Severe",
+        "risk_score": 5,
+        "risk_factors": [
+          "Transport-deficient zone",
+          "Freight/logistics hub"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "Phu My Industrial Zone",
+        "lat": 10.722,
+        "lng": 106.753,
+        "zone_type": "industrial",
+        "severity": "red",
+        "severity_label": "Severe",
+        "risk_score": 5,
+        "risk_factors": [
+          "Transport-deficient zone",
+          "Industrial operations"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "District 1 (Dong Khoi)",
+        "lat": 10.7769,
+        "lng": 106.7009,
+        "zone_type": "commercial",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "Tan Son Nhat Airport",
+        "lat": 10.8172,
+        "lng": 106.6645,
+        "zone_type": "transit",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "Binh Thanh Junction",
+        "lat": 10.8,
+        "lng": 106.6987,
+        "zone_type": "residential",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "Thu Duc Tech Park",
+        "lat": 10.852,
+        "lng": 106.758,
+        "zone_type": "tech",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      }
+    ]
+  },
+  "Da Nang": {
+    "total_candidates": 3,
+    "candidates": [
+      {
+        "name": "Lien Chieu Industrial",
+        "lat": 16.1065,
+        "lng": 108.1542,
+        "zone_type": "industrial",
+        "severity": "red",
+        "severity_label": "Severe",
+        "risk_score": 5,
+        "risk_factors": [
+          "Transport-deficient zone",
+          "Industrial operations"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "Han River Bridge Zone",
+        "lat": 16.0719,
+        "lng": 108.2241,
+        "zone_type": "transit",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "My Khe Beach Tourism",
+        "lat": 16.0598,
+        "lng": 108.2465,
+        "zone_type": "tourism",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      }
+    ]
+  },
+  "Hai Phong": {
+    "total_candidates": 2,
+    "candidates": [
+      {
+        "name": "Dinh Vu Industrial Zone",
+        "lat": 20.84,
+        "lng": 106.74,
+        "zone_type": "industrial",
+        "severity": "red",
+        "severity_label": "Severe",
+        "risk_score": 5,
+        "risk_factors": [
+          "Transport-deficient zone",
+          "Industrial operations"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "City Harbor Access",
+        "lat": 20.8625,
+        "lng": 106.7012,
+        "zone_type": "logistics",
+        "severity": "red",
+        "severity_label": "Severe",
+        "risk_score": 5,
+        "risk_factors": [
+          "Transport-deficient zone",
+          "Freight/logistics hub"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      }
+    ]
+  },
+  "Can Tho": {
+    "total_candidates": 2,
+    "candidates": [
+      {
+        "name": "Tra Noc Industrial Park",
+        "lat": 10.11,
+        "lng": 105.71,
+        "zone_type": "industrial",
+        "severity": "red",
+        "severity_label": "Severe",
+        "risk_score": 5,
+        "risk_factors": [
+          "Transport-deficient zone",
+          "Industrial operations"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      },
+      {
+        "name": "Ninh Kieu Wharf Tourism",
+        "lat": 10.0347,
+        "lng": 105.7884,
+        "zone_type": "tourism",
+        "severity": "orange",
+        "severity_label": "Congested",
+        "risk_score": 3,
+        "risk_factors": [
+          "Transport-deficient zone"
+        ],
+        "transport_density": {
+          "nearby_stops": 0,
+          "density_label": "deficient",
+          "estimated_coverage": "5%"
+        },
+        "nearby_industrial_zones": 0,
+        "nearby_commercial_zones": 0,
+        "corridor_convergence": 0,
+        "key_corridors": []
+      }
+    ]
+  }
+}

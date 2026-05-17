@@ -1,0 +1,22 @@
+{
+  "Hanoi": {
+    "total_corridors": 0,
+    "corridors": []
+  },
+  "Ho Chi Minh City": {
+    "total_corridors": 0,
+    "corridors": []
+  },
+  "Da Nang": {
+    "total_corridors": 0,
+    "corridors": []
+  },
+  "Hai Phong": {
+    "total_corridors": 0,
+    "corridors": []
+  },
+  "Can Tho": {
+    "total_corridors": 0,
+    "corridors": []
+  }
+}

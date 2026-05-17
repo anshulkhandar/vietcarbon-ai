@@ -1,0 +1,22 @@
+{
+  "Hanoi": {
+    "total_segments": 0,
+    "roads": []
+  },
+  "Ho Chi Minh City": {
+    "total_segments": 0,
+    "roads": []
+  },
+  "Da Nang": {
+    "total_segments": 0,
+    "roads": []
+  },
+  "Hai Phong": {
+    "total_segments": 0,
+    "roads": []
+  },
+  "Can Tho": {
+    "total_segments": 0,
+    "roads": []
+  }
+}

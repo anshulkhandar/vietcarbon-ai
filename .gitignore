@@ -1,0 +1,70 @@
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+.pnp
+.pnp.js
+
+# ============================================
+# Environment Variables (secrets)
+# ============================================
+.env
+backend/.env
+frontend/.env
+
+# Keep example/template env files
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+!frontend/.env.local
+
+# ============================================
+# Build & Output
+# ============================================
+dist/
+build/
+.vite/
+
+# ============================================
+# Logs
+# ============================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ============================================
+# IDE / Editor
+# ============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# ============================================
+# Package Manager Locks (keep for reproducibility)
+# ============================================
+# package-lock.json  ← committed for reproducible installs
+
+# ============================================
+# Misc
+# ============================================
+.cache/
+.temp/
+*.tgz
+coverage/
+.nyc_output/

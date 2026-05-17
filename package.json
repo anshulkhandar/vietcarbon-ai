@@ -1,0 +1,23 @@
+{
+  "name": "vietcarbon-ai",
+  "version": "2.0.0",
+  "private": true,
+  "description": "VietCarbon AI — Vietnam Smart Sustainability Platform with FRIDAY AI Assistant, HydroGrid Intelligence, and Real-time Environmental Monitoring",
+  "author": "Anshul Khandar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anshulkhandar/vietcarbon-ai.git"
+  },
+  "scripts": {
+    "install:all": "cd frontend && npm install && cd ../backend && npm install",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "seed": "cd backend && node seed.js",
+    "build": "cd frontend && npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
